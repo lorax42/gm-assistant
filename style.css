@@ -1,0 +1,86 @@
+body{
+    color: black;
+    font-size: 14pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0 0;
+}
+
+.canvas{
+    background-color: lightgray;
+    margin: 0 25%;
+}
+
+/* HEADER */
+
+header{
+    background-color: darkred;
+}
+
+.header-title{
+    color: lightgray;
+    font-size: 20pt;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.title-field{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* NAV */
+
+.nav-item{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    color: lightgray;
+    text-decoration: none;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.nav-item:hover{
+    background-color: gray;
+    color: darkred;
+}
+
+.nav-item.active{
+    background-color: lightgray;
+    color: darkred;
+}
+
+/* MAIN */
+
+main{
+    padding: 1rem 2rem;
+    min-height: 50rem;
+}
+
+h1,h2,h3{
+    text-align: center;
+    border-bottom: 3px solid darkred;
+}
+
+h2{
+    text-align: center;
+    border-bottom: 2px solid darkred;
+}
+
+h3{
+    text-align: left;
+    border-bottom: 1px solid darkred;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: darkred;
+    color: lightgray;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.footer-item{
+    padding: 0 1rem;
+}
