@@ -83,4 +83,14 @@ footer{
 
 .footer-item{
     padding: 0 1rem;
+    text-decoration: none;
+}
+
+a.footer-item:link{
+    color: green;
+    font-weight: bold;
+}
+
+a.footer-item:hover{
+    color: navy;
 }
